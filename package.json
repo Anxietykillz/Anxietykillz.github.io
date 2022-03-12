@@ -1,0 +1,30 @@
+{
+  "name": "anxietykillz.github.io.git",
+  "version": "1.0.0",
+  "description": "Reposition for anxietykillz.com using 11ty to build the static site.",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+	"build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anxietykillz/Anxietykillz.github.io.git"
+  },
+  "keywords": [
+    "metal",
+    "health",
+    "yoga",
+    "accessibility",
+    "mindfullness"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Anxietykillz/Anxietykillz.github.io/issues"
+  },
+  "homepage": "https://github.com/Anxietykillz/Anxietykillz.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
