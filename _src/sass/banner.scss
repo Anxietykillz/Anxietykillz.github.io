@@ -1,0 +1,35 @@
+// Banner styles
+
+.banner {
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	background-image: url("./images/mbr-1-1920x1920.png");
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	color: #fff;
+
+	h1 {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 4.6rem;
+		line-height: 1.1;
+		font-weight: 700;
+		text-align: center;
+
+		span {
+			display: block;
+		}
+	}
+}
+
+.overlay {
+	opacity: 0.4;
+	background-color: rgb(244, 69, 187);
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}

@@ -1,0 +1,88 @@
+.text-primary {
+	color: #f445bb !important;
+}
+
+.text-secondary {
+	color: #f445bb !important;
+}
+
+.text-success {
+	color: #40b0bf !important;
+}
+
+.text-info {
+	color: #47b5ed !important;
+}
+
+.text-warning {
+	color: #ffe161 !important;
+}
+
+.text-danger {
+	color: #ff9966 !important;
+}
+
+.text-white {
+	color: #fafafa !important;
+}
+
+.text-black {
+	color: #232323 !important;
+}
+
+a.text-primary:hover,
+a.text-primary:focus,
+a.text-primary.active {
+	color: #c70c8a !important;
+}
+
+a.text-secondary:hover,
+a.text-secondary:focus,
+a.text-secondary.active {
+	color: #c70c8a !important;
+}
+
+a.text-success:hover,
+a.text-success:focus,
+a.text-success.active {
+	color: #266a73 !important;
+}
+
+a.text-info:hover,
+a.text-info:focus,
+a.text-info.active {
+	color: #1283bc !important;
+}
+
+a.text-warning:hover,
+a.text-warning:focus,
+a.text-warning.active {
+	color: #facb00 !important;
+}
+
+a.text-danger:hover,
+a.text-danger:focus,
+a.text-danger.active {
+	color: #ff5500 !important;
+}
+
+a.text-white:hover,
+a.text-white:focus,
+a.text-white.active {
+	color: #c7c7c7 !important;
+}
+
+a.text-black:hover,
+a.text-black:focus,
+a.text-black.active {
+	color: #000000 !important;
+}
+
+a[class*="text-"]:not(.nav-link):not(.dropdown-item):not([role]):not(.navbar-caption) {
+	transition: 0.2s;
+	position: relative;
+	background-image: linear-gradient(currentColor 50%, currentColor 50%);
+	background-size: 10000px 2px;
+	background-repeat: no-repeat;
+	background-position: 0 1.2em;
+}
